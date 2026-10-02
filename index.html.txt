@@ -1,0 +1,22 @@
+Actúa como desarrollador web frontend. Construye una página web de una sola pantalla desplazable (landing page) siguiendo estrictamente estas especificaciones:
+
+1. FINALIDAD Y PÚBLICO: Presentar un proyecto/servicio personal [SUPUESTO] para un público general en dispositivos móviles y de escritorio. Tono profesional y cercano.
+2. ACCIÓN PRINCIPAL: Contactar vía WhatsApp o Correo mediante un botón principal destacado en la cabecera y pie de página.
+3. SECCIONES:
+   - Inicio / Cabecera (presentación rápida y llamada a la acción)
+   - Qué ofrezco (servicios o características clave)
+   - Sobre mí / Proyecto (breve resumen)
+   - Preguntas frecuentes (acordeón interactivo simple)
+   - Contacto
+4. ORGANIZACIÓN DEL CÓDIGO (Opción A): UN ÚNICO archivo denominado `index.html`. El código CSS estará dentro de <style> en el <head> y el JavaScript dentro de <script> al final del <body>. Sin archivos externos ni carpetas.
+5. SISTEMA DE DISEÑO:
+   - Paleta: Fondo claro (#F8F9FA), Texto principal (#212529), Color de acento/acción (#0D6EFD).
+   - Tipografía: Fuentes del sistema (system-ui, -apple-system, sans-serif).
+   - Tamaños: Texto general mínimo 16px, Botones de acción de mínimo 44px de alto.
+   - Principios: Diseño Mobile-First, alto contraste de lectura y diseño despejado con buen espaciado.
+6. REGLAS TÉCNICAS E INNEGOCIABLES:
+   - No usar imágenes externas, tipografías descargables ni librerías de terceros (JS/CSS).
+   - Usar solo iconos o ilustraciones en formato SVG embebido directamente en el HTML.
+   - Datos no definidos deben marcarse exactamente como [PLACEHOLDER].
+   - Agrupar textos y datos de contacto editables en el HTML dentro de zonas delimitadas por comentarios <!-- EDITAR AQUÍ --> y <!-- NO TOCAR DESDE AQUÍ -->.
+   - Garantizar que la página funcione y muestre todo el contenido esencial aunque el JavaScript falle o esté deshabilitado.
